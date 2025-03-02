@@ -1,8 +1,17 @@
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
+  --secondary-color: hsla(0, 0%, 5%, 0.945);
+  --step-color: hsl(229, 70%, 45%);
+  --choice-color: hsla(0, 6%, 72%, 0.877);
   --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
+  --fw-bold: 700;
+  --fs-500: 0.8375rem;
+  --fs-600: 0.9rem;
+  --fs-700: 1.475rem;
 }
+
+
 
 * {
   box-sizing: border-box;
@@ -71,4 +80,7 @@ body {
 .btn:hover {
   opacity: 0.7;
 }
+
+
+
 
